@@ -3,7 +3,7 @@
 This repository contains code for auditing for diversity of any given data collection using a small set of representative examples.
 
 The goal of providing a label-agnostic algorithm for diversity audit is to enable end-users to audit data collections
-even protected attributes (gender, race, dialect, etc.) of the elements in the dataset are unlabeled. 
+even when protected attributes (gender, race, dialect, etc.) of the elements in the dataset are unlabeled. 
 The algorithm uses a small set of representative examples (called a control set) to provide an approximation of the disparity in the dataset.
 
 To construct control sets, one can either use small randomly chosen labeled samples from the dataset, or use the *adaptive control set* 
